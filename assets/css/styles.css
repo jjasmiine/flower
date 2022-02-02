@@ -185,8 +185,7 @@ img{
     background-color: hsla(var(--hue-two), 32%, 25%, .8);
 }
 
-/*active-link*/
-.active-link{
+.nav__link:hover{
     background: linear-gradient(180deg, 
     hsla(var(--hue-one), var(--sat), var(--light), 1),
     hsla(var(--hue-one), var(--sat), var(--light), .2)
